@@ -27,25 +27,11 @@ const Service = ({
     <DigitDesign.Card absWidth="400px" absHeight="300px">
       <DigitDesign.CardBody onClick={
         () => {
-          console.log("Hej");
           openDialog({
-            title: "hej",
+            title: title,
             renderMain: () => (
-                <div>
-                  Hej
-                </div>
-            ),
-            renderButtons: () => (
-                <h1>
-                  This is so sad
-                </h1>
-            ),
-            onCancel: e => {
-              swag()
-            },
-            onConfirm: e => {
-              swag()
-            }
+                description
+            )
           });
         }
       }>
@@ -57,10 +43,12 @@ const Service = ({
       </DigitDesign.CardBody>
     </DigitDesign.Card>
 );
-const swag = () => ({});
+
 const mapStateToProps = (state, ownProps) => ({});
+
 const mapDispatchToProps = (dispatch) => ({
   openDialog: (dialogData) =>
       dispatch(DigitDialogActions.digitDialogCustomOpen(dialogData))
 });
+
 export default connect(mapStateToProps,mapDispatchToProps)(Service);
