@@ -1,0 +1,43 @@
+{
+  "wikis": [
+  {
+    "title": "WikiEntry1",
+    "url": "http://mat.chalmers.it",
+    "description":
+      "Test för howto",
+    "fontawesome_icon": "fa-cutlery"
+  },
+
+  {
+    "title": "WikiEntry2",
+    "url": "http://mat.chalmers.it",
+    "description":
+    "Test för howto",
+    "fontawesome_icon": "fa-cutlery"
+  },
+
+  {
+    "title": "WikiEntry3",
+    "url": "http://mat.chalmers.it",
+    "description":
+    "Test för howto",
+    "fontawesome_icon": "fa-cutlery"
+  },
+
+  {
+    "title": "WikiEntry4",
+    "url": "http://mat.chalmers.it",
+    "description":
+    "Test för howto",
+    "fontawesome_icon": "fa-cutlery"
+  },
+
+  {
+    "title": "WikiEntry5",
+    "url": "http://mat.chalmers.it",
+    "description":
+    "Test för howto",
+    "fontawesome_icon": "fa-cutlery"
+  }
+]
+}
