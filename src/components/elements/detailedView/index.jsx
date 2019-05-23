@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import data from "../../../wikis.json";
 import "./styling.css";
-import { DigitText, DigitImage, DigitLayout } from "@cthit/react-digit-components";
+import { DigitText, DigitImage, DigitLayout, DigitDialog } from "@cthit/react-digit-components";
 import Tutorial from "../../elements/tutorial/tutorial"
 import { BigDiv, Dialog, LightBox, HeaderDiv } from "./styles"
 

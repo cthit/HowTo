@@ -12,9 +12,16 @@ import {
   GithubButton,
   ButtonIcon
 } from "./styles";
-import {DigitDesign, DigitText, DigitButton, DigitFormField, DigitTextField, DigitLayout} from "@cthit/react-digit-components";
+import {
+  DigitDesign,
+  DigitText,
+  DigitLayout,
+  DigitDialogActions
+} from "@cthit/react-digit-components";
+import {connect} from "react-redux";
 
-export const Service = ({
+const Service = ({
+  openDialog,
   title,
   url,
   description,
@@ -22,13 +29,27 @@ export const Service = ({
   fontawesome_icon
 }) => (
     <DigitDesign.Card absWidth="400px" absHeight="300px">
-      <DigitDesign.CardBody>
+      <DigitDesign.CardBody onClick={()=>{
+        openDialog({
+          title: "This is a title",
+          description: "Description",
+          cancelButtonText: "No",
+          confirmButtonText: "Yes"
+      });
+      }}>
         <DigitLayout.Row>
           <ServiceIcon className={"fa " + fontawesome_icon} />
           <DigitText.Title text={title} />
         </DigitLayout.Row>
         <Description>{description}</Description>
-
       </DigitDesign.CardBody>
     </DigitDesign.Card>
 );
+
+const mapStateToProps = (state) => ({});
+
+const mapDispatchToProps = (dispatch) => ({
+  openDialog: (dialogData) => dispatch(DigitDialogActions.digitDialogOpen(dialogData)) 
+});
+
+export default connect(mapStateToProps,mapDispatchToProps)(Service);
