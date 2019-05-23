@@ -2,15 +2,8 @@ import React from "react";
 import "font-awesome/css/font-awesome.min.css";
 
 import {
-  Container,
-  ServiceHeader,
-  ServiceTitle,
   ServiceIcon,
-  Description,
-  ButtonGroup,
-  ServiceButton,
-  GithubButton,
-  ButtonIcon
+  Description
 } from "./styles";
 import {
   DigitDesign,
