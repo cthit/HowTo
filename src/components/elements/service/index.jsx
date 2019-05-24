@@ -1,5 +1,6 @@
 import React from "react";
 import "font-awesome/css/font-awesome.min.css";
+import { readFile } from 'fs'
 import {
   ServiceHeader,
   ServiceTitle,
@@ -13,14 +14,17 @@ import {
   DigitDesign,
   DigitText,
   DigitLayout,
-  DigitDialogActions
+  DigitDialogActions,
+  DigitMarkdown
 } from "@cthit/react-digit-components";
 import {connect} from "react-redux";
+
 const Service = ({
   openDialog,
   title,
   url,
   description,
+  detailedDescription,
   github_url,
   fontawesome_icon
 }) => (
@@ -30,7 +34,8 @@ const Service = ({
           openDialog({
             title: title,
             renderMain: () => (
-                description
+              console.log('../../../'+detailedDescription),
+                <DigitMarkdown markdownSource={readFile(detailedDescription,'utf8').text}/>
             )
           });
         }
@@ -39,7 +44,7 @@ const Service = ({
           <ServiceIcon className={"fa " + fontawesome_icon} />
           <DigitText.Title text={title} />
         </DigitLayout.Row>
-        <Description>{description}</Description>
+        <DigitMarkdown markdownSource={description}/>
       </DigitDesign.CardBody>
     </DigitDesign.Card>
 );

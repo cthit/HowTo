@@ -3,40 +3,44 @@
   {
     "title": "WikiEntry1",
     "url": "http://mat.chalmers.it",
-    "description":
-      "Test för howto",
+    "detailedDescription": "descriptions/wikiTest1.md",
+    "description": "short thing for wiki1",
     "fontawesome_icon": "fa-cutlery"
   },
 
   {
     "title": "WikiEntry2",
     "url": "http://mat.chalmers.it",
-    "description":
-    "Test för howto",
+    "detailedDescription":
+    "Lorem ipsum. \b Hello",
+    "description": "short thing for wiki2",
     "fontawesome_icon": "fa-cutlery"
   },
 
   {
     "title": "WikiEntry3",
     "url": "http://mat.chalmers.it",
-    "description":
+    "detailedDescription":
     "Test för howto",
+    "description": "short thing for wiki3",
     "fontawesome_icon": "fa-cutlery"
   },
 
   {
     "title": "WikiEntry4",
     "url": "http://mat.chalmers.it",
-    "description":
+    "detailedDescription":
     "Test för howto",
+    "description": "short thing for wiki4",
     "fontawesome_icon": "fa-cutlery"
   },
 
   {
     "title": "WikiEntry5",
     "url": "http://mat.chalmers.it",
-    "description":
+    "detailedDescription":
     "Test för howto",
+    "description": "short thing for wiki5",
     "fontawesome_icon": "fa-cutlery"
   }
 ]
