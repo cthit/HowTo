@@ -24,7 +24,7 @@ const Service = ({
   title,
   url,
   description,
-  detailedDescription,
+  detailedDescriptionPath,
   github_url,
   fontawesome_icon
 }) => (
@@ -34,8 +34,9 @@ const Service = ({
           openDialog({
             title: title,
             renderMain: () => (
-              console.log('../../../'+detailedDescription),
-                <DigitMarkdown markdownSource={readFile(detailedDescription,'utf8').text}/>
+              console.log('../../../'+detailedDescriptionPath),
+                //<DigitMarkdown markdownSource={readFile(detailedDescriptionPath,'utf8').text}/>
+                <div></div>
             )
           });
         }
