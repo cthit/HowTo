@@ -1,29 +1,36 @@
 import React, { Component } from "react";
-import Service from "../../elements/service/index";
-import { DetailedView } from "../../elements/detailedView/index";
-import { Container, ServiceContainer, Content } from "./styles";
-import { Header } from "../../views/header/index";
+import Service from "../../elements/tutorial/index";
 import { Footer } from "../../views/footer/index";
 import data from "../../../wikis.json";
 import { DigitLayout, DigitHeader } from "@cthit/react-digit-components";
-import Tutorial from "../../elements/tutorial/tutorial"
+
+const gridStyle = {
+    marginLeft: "2.5vw",
+    marginRight: "2.5vw",
+    marginTop: "20px",
+    backgroundColor: "cyan",
+    width: "95vw"
+};
 
 class HomeScreen extends Component {
-  render() {
-    const tutorials = data.wikis.map( tutorial =>  <Service {...tutorial}/> );
-
-    return (
-      <DigitHeader
-        text="Example"
-        title="Swag"
-        renderMain={() => (
-          <DigitLayout.Grid>
-            {tutorials}
-          </DigitLayout.Grid>
-        )}
-      />
-    );
-  }
+    render() {
+        const tutorials = data.wikis.map(tutorial => <Service {...tutorial} />);
+        return (
+            <DigitHeader
+                title="HowTo"
+                renderMain={() => (
+                    <div style={gridStyle}>
+                        <DigitLayout.UniformGrid
+                            margin="5vw"
+                            minItemWidth="20vw"
+                        >
+                            {tutorials}
+                        </DigitLayout.UniformGrid>
+                    </div>
+                )}
+            />
+        );
+    }
 }
 
 export default HomeScreen;
