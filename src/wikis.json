@@ -1,43 +1,38 @@
 {
   "wikis": [
-  {
-    "title": "WikiEntry1",
-    "url": "http://mat.chalmers.it",
-    "detailedDescriptionPath": "descriptions/wikiTest1.md",
-    "description": "short thing for wiki1",
-    "fontawesome_icon": "fa-cutlery"
-  },
-
-  {
-    "title": "WikiEntry2",
-    "url": "http://mat.chalmers.it",
-    "detailedDescriptionPath": "Lorem ipsum. \b Hello",
-    "description": "short thing for wiki2",
-    "fontawesome_icon": "fa-cutlery"
-  },
-
-  {
-    "title": "WikiEntry3",
-    "url": "http://mat.chalmers.it",
-    "detailedDescriptionPath": "Test för howto",
-    "description": "short thing for wiki3",
-    "fontawesome_icon": "fa-cutlery"
-  },
-
-  {
-    "title": "WikiEntry4",
-    "url": "http://mat.chalmers.it",
-    "detailedDescriptionPath": "Test för howto",
-    "description": "short thing for wiki4",
-    "fontawesome_icon": "fa-cutlery"
-  },
-
-  {
-    "title": "WikiEntry5",
-    "url": "http://mat.chalmers.it",
-    "detailedDescription": "Test för howto",
-    "description": "short thing for wiki5",
-    "fontawesome_icon": "fa-cutlery"
-  }
-]
+    {
+      "title": "Göra kaffe",
+      "detailedDescriptionPath": "descriptions/wikiTest1.md",
+      "description": "Är kaffet slut?",
+      "fontawesome_icon": "fa-coffee"
+    },
+    {
+      "title": "WikiEntry2",
+      "url": "http://mat.chalmers.it",
+      "detailedDescriptionPath": "Lorem ipsum. \b Hello",
+      "description": "short thing for wiki2",
+      "fontawesome_icon": "fa-cutlery"
+    },
+    {
+      "title": "WikiEntry3",
+      "url": "http://mat.chalmers.it",
+      "detailedDescriptionPath": "Test för howto",
+      "description": "short thing for wiki3",
+      "fontawesome_icon": "fa-cutlery"
+    },
+    {
+      "title": "WikiEntry4",
+      "url": "http://mat.chalmers.it",
+      "detailedDescriptionPath": "Test för howto",
+      "description": "short thing for wiki4",
+      "fontawesome_icon": "fa-cutlery"
+    },
+    {
+      "title": "WikiEntry5",
+      "url": "http://mat.chalmers.it",
+      "detailedDescription": "Test för howto",
+      "description": "short thing for wiki5",
+      "fontawesome_icon": "fa-cutlery"
+    }
+  ]
 }
