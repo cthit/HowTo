@@ -8,7 +8,6 @@ const gridStyle = {
     marginLeft: "2.5vw",
     marginRight: "2.5vw",
     marginTop: "20px",
-    backgroundColor: "cyan",
     width: "95vw"
 };
 
