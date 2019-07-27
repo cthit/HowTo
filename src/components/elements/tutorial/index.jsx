@@ -1,7 +1,7 @@
 import React from "react";
 import "font-awesome/css/font-awesome.min.css";
-import { readFile } from "fs";
 import { TutorialIcon } from "./styles";
+import { addMail } from "../../../descriptions/addMail";
 import {
     DigitDesign,
     DigitText,
@@ -22,12 +22,18 @@ const Service = ({
         <DigitDesign.CardBody
             onClick={() => {
                 openDialog({
-                    title: title,
                     renderMain: () => (
                         console.log("../../../" + detailedDescriptionPath),
                         (
-                            //<DigitMarkdown markdownSource={readFile(detailedDescriptionPath,'utf8').text}/>
-                            <div></div>
+                            <div>
+                                <DigitLayout.Row>
+                                    <TutorialIcon
+                                        className={"fa " + fontawesome_icon}
+                                    />
+                                    <DigitText.Heading5 text={title} />
+                                </DigitLayout.Row>
+                                <DigitMarkdown markdownSource="Så här lägger man till en **mail**. \ Newline" />
+                            </div>
                         )
                     )
                 });

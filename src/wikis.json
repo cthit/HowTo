@@ -9,7 +9,7 @@
     {
       "title": "Lägga till mail",
       "url": "http://mat.chalmers.it",
-      "detailedDescriptionPath": "descriptions/addMail.md",
+      "detailedDescriptionPath": "addMail",
       "description": "Lägga till en till mailadress till ditt GMail",
       "fontawesome_icon": "fa-envelope"
     },
@@ -18,7 +18,7 @@
       "url": "http://mat.chalmers.it",
       "detailedDescriptionPath": "descriptions/bookBulten.md",
       "description": "Yup, det går att göra.",
-      "fontawesome_icon": "fa-cookie"
+      "fontawesome_icon": "fa-cutlery"
     },
     {
       "title": "WikiEntry4",
