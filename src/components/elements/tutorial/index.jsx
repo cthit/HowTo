@@ -1,7 +1,7 @@
 import React from "react";
 import "font-awesome/css/font-awesome.min.css";
 import { readFile } from "fs";
-import { ServiceIcon } from "./styles";
+import { TutorialIcon } from "./styles";
 import {
     DigitDesign,
     DigitText,
@@ -34,7 +34,7 @@ const Service = ({
             }}
         >
             <DigitLayout.Row>
-                <ServiceIcon className={"fa " + fontawesome_icon} />
+                <TutorialIcon className={"fa " + fontawesome_icon} />
                 <DigitText.Title text={title} />
             </DigitLayout.Row>
             <DigitMarkdown markdownSource={description} />
