@@ -3,38 +3,20 @@
     {
       "title": "Create a new 'HowTo'",
       "detailedDescriptionName": "howTo",
-      "description": "Is something missing? This is how you make a new 'HowTo'",
+      "description": "Is something missing? This is how you make a new 'HowTo'.",
       "fontawesome_icon": "fa-question"
     },
     {
       "title": "Make coffee",
-      "detailedDescriptionName": "descriptions/makeCoffee.md",
-      "description": "is the coffee can empty?",
+      "detailedDescriptionName": "makeCoffee",
+      "description": "Is the coffee can empty?",
       "fontawesome_icon": "fa-coffee"
     },
     {
-      "title": "Lägga till mail",
+      "title": "Add another email",
       "detailedDescriptionName": "addMail",
-      "description": "Lägga till en till mailadress till ditt GMail",
+      "description": "This is how you add another email to your GMail. \n Very useful for people in committees.",
       "fontawesome_icon": "fa-envelope"
-    },
-    {
-      "title": "Boka Bulten",
-      "detailedDescriptionName": "descriptions/bookBulten.md",
-      "description": "Yup, det går att göra.",
-      "fontawesome_icon": "fa-cutlery"
-    },
-    {
-      "title": "WikiEntry4",
-      "detailedDescriptionName": "descriptions/wikiTest1.md",
-      "description": "short thing for wiki4",
-      "fontawesome_icon": "fa-cutlery"
-    },
-    {
-      "title": "WikiEntry5",
-      "detailedDescriptionName": "descriptions/wikiTest2.md",
-      "description": "short thing for wiki5",
-      "fontawesome_icon": "fa-cutlery"
     }
   ]
 }
