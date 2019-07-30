@@ -1,7 +1,7 @@
 import React from "react";
 import "font-awesome/css/font-awesome.min.css";
 import { TutorialIcon } from "./styles";
-import { addMail } from "../../../descriptions/addMail";
+import { everything } from "../../../descriptions/everything";
 import {
     DigitDesign,
     DigitText,
@@ -33,7 +33,7 @@ const Service = ({
                                     <DigitText.Heading5 text={title} />
                                 </DigitLayout.Row>
                                 <DigitMarkdown
-                                    markdownSource={detailedDescriptionName}
+                                    markdownSource={everything[detailedDescriptionName]}
                                 />
                             </div>
                         )
