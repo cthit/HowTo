@@ -1,36 +1,38 @@
 {
   "wikis": [
     {
+      "title": "Göra en 'HowTo'",
+      "detailedDescriptionName": "howTo",
+      "description": "Tycker du att det saknas något här? Såhär gör du en till 'HowTo'",
+      "fontawesome_icon": "fa-question"
+    },
+    {
       "title": "Göra kaffe",
-      "detailedDescriptionPath": "descriptions/makeCoffee.md",
+      "detailedDescriptionName": "descriptions/makeCoffee.md",
       "description": "Är kaffet slut?",
       "fontawesome_icon": "fa-coffee"
     },
     {
       "title": "Lägga till mail",
-      "url": "http://mat.chalmers.it",
-      "detailedDescriptionPath": "addMail",
+      "detailedDescriptionName": "addMail",
       "description": "Lägga till en till mailadress till ditt GMail",
       "fontawesome_icon": "fa-envelope"
     },
     {
       "title": "Boka Bulten",
-      "url": "http://mat.chalmers.it",
-      "detailedDescriptionPath": "descriptions/bookBulten.md",
+      "detailedDescriptionName": "descriptions/bookBulten.md",
       "description": "Yup, det går att göra.",
       "fontawesome_icon": "fa-cutlery"
     },
     {
       "title": "WikiEntry4",
-      "url": "http://mat.chalmers.it",
-      "detailedDescriptionPath": "descriptions/wikiTest1.md",
+      "detailedDescriptionName": "descriptions/wikiTest1.md",
       "description": "short thing for wiki4",
       "fontawesome_icon": "fa-cutlery"
     },
     {
       "title": "WikiEntry5",
-      "url": "http://mat.chalmers.it",
-      "detailedDescription": "descriptions/wikiTest2.md",
+      "detailedDescriptionName": "descriptions/wikiTest2.md",
       "description": "short thing for wiki5",
       "fontawesome_icon": "fa-cutlery"
     }
