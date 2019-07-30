@@ -15,7 +15,7 @@ const Service = ({
     openDialog,
     title,
     description,
-    detailedDescriptionPath,
+    detailedDescriptionName,
     fontawesome_icon
 }) => (
     <DigitDesign.Card absWidth="20vw" absHeight="200px">
@@ -23,7 +23,7 @@ const Service = ({
             onClick={() => {
                 openDialog({
                     renderMain: () => (
-                        console.log("../../../" + detailedDescriptionPath),
+                        console.log(detailedDescriptionName),
                         (
                             <div>
                                 <DigitLayout.Row>
@@ -32,7 +32,9 @@ const Service = ({
                                     />
                                     <DigitText.Heading5 text={title} />
                                 </DigitLayout.Row>
-                                <DigitMarkdown markdownSource="Så här lägger man till en **mail**. \ Newline" />
+                                <DigitMarkdown
+                                    markdownSource={detailedDescriptionName}
+                                />
                             </div>
                         )
                     )
