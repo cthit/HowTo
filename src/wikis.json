@@ -1,15 +1,15 @@
 {
   "wikis": [
     {
-      "title": "Göra en 'HowTo'",
+      "title": "Create a new 'HowTo'",
       "detailedDescriptionName": "howTo",
-      "description": "Tycker du att det saknas något här? Såhär gör du en till 'HowTo'",
+      "description": "Is something missing? This is how you make a new 'HowTo'",
       "fontawesome_icon": "fa-question"
     },
     {
-      "title": "Göra kaffe",
+      "title": "Make coffee",
       "detailedDescriptionName": "descriptions/makeCoffee.md",
-      "description": "Är kaffet slut?",
+      "description": "is the coffee can empty?",
       "fontawesome_icon": "fa-coffee"
     },
     {
