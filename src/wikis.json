@@ -23,6 +23,18 @@
             "detailedDescriptionName": "bookGroupRoom",
             "description": "This is how you book a group room at Chalmers. Useful when you need to work on a group project or just need some quiet time.",
             "fontawesome_icon": "fa-book"
+        },
+        {
+            "title": "Use the projector in Hubben",
+            "detailedDescriptionName": "projectorInHubben",
+            "description": "Want to watch something on the big screen in Hubben? This is how you use the projector.",
+            "fontawesome_icon": "fa-video-camera"
+        },
+        {
+            "title": "Print some papers",
+            "detailedDescriptionName": "print",
+            "description": "Need to print some papers? Here's an easy way to do it.",
+            "fontawesome_icon": "fa-print"
         }
     ]
 }
