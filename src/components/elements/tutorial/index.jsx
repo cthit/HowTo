@@ -7,7 +7,7 @@ import {
     DigitText,
     DigitLayout,
     DigitDialogActions,
-    DigitMarkdown
+    DigitMarkdown,
 } from "@cthit/react-digit-components";
 import { connect } from "react-redux";
 
@@ -16,7 +16,7 @@ const Service = ({
     title,
     description,
     detailedDescriptionName,
-    fontawesome_icon
+    fontawesome_icon,
 }) => (
     <DigitDesign.Card absWidth="20vw" absHeight="200px">
         <DigitDesign.CardBody
@@ -33,11 +33,13 @@ const Service = ({
                                     <DigitText.Heading5 text={title} />
                                 </DigitLayout.Row>
                                 <DigitMarkdown
-                                    markdownSource={everything[detailedDescriptionName]}
+                                    markdownSource={
+                                        everything[detailedDescriptionName]
+                                    }
                                 />
                             </div>
                         )
-                    )
+                    ),
                 });
             }}
         >
@@ -54,7 +56,7 @@ const mapStateToProps = (state, ownProps) => ({});
 
 const mapDispatchToProps = dispatch => ({
     openDialog: dialogData =>
-        dispatch(DigitDialogActions.digitDialogCustomOpen(dialogData))
+        dispatch(DigitDialogActions.digitDialogCustomOpen(dialogData)),
 });
 
 export default connect(

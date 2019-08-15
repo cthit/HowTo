@@ -1,5 +1,5 @@
 export const howTo =
-  "1. Start by adding a new entry to the `wikis.json` file. You can see how the others are made so do something similar.\n" +
+    "1. Start by adding a new entry to the `wikis.json` file. You can see how the others are made so do something similar.\n" +
     "`title` is the title of your 'HowTo'.\n" +
     "`detailedDescriptionName` is the name of the `.jsx` object key that. This will be described more in step 3.\n" +
     "`description` is the short description shown on the main page.\n" +

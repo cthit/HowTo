@@ -1,22 +1,22 @@
 {
-  "wikis": [
-    {
-      "title": "Create a new 'HowTo'",
-      "detailedDescriptionName": "howTo",
-      "description": "Is something missing? This is how you make a new 'HowTo'.",
-      "fontawesome_icon": "fa-question"
-    },
-    {
-      "title": "Make coffee",
-      "detailedDescriptionName": "makeCoffee",
-      "description": "Is the coffee can empty?",
-      "fontawesome_icon": "fa-coffee"
-    },
-    {
-      "title": "Add another email",
-      "detailedDescriptionName": "addMail",
-      "description": "This is how you add another email to your GMail. \n Very useful for people in committees.",
-      "fontawesome_icon": "fa-envelope"
-    }
-  ]
+    "wikis": [
+        {
+            "title": "Create a new 'HowTo'",
+            "detailedDescriptionName": "howTo",
+            "description": "Is something missing? This is how you make a new 'HowTo'.",
+            "fontawesome_icon": "fa-question"
+        },
+        {
+            "title": "Make coffee",
+            "detailedDescriptionName": "makeCoffee",
+            "description": "Is the coffee can empty?",
+            "fontawesome_icon": "fa-coffee"
+        },
+        {
+            "title": "Add another email",
+            "detailedDescriptionName": "addMail",
+            "description": "This is how you add another email to your GMail. \n Very useful for people in committees.",
+            "fontawesome_icon": "fa-envelope"
+        }
+    ]
 }

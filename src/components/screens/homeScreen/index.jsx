@@ -8,7 +8,7 @@ const gridStyle = {
     marginLeft: "2.5vw",
     marginRight: "2.5vw",
     marginTop: "20px",
-    width: "95vw"
+    width: "95vw",
 };
 
 class HomeScreen extends Component {
