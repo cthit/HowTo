@@ -13,10 +13,16 @@
             "fontawesome_icon": "fa-coffee"
         },
         {
-            "title": "Add another email",
+            "title": "Add another email to GMail",
             "detailedDescriptionName": "addMail",
             "description": "This is how you add another email to your GMail. \n Very useful for people in committees.",
             "fontawesome_icon": "fa-envelope"
+        },
+        {
+            "title": "Book a group room",
+            "detailedDescriptionName": "bookGroupRoom",
+            "description": "This is how you book a group room at Chalmers. Useful when you need to work on a group project or just need some quiet time.",
+            "fontawesome_icon": "fa-book"
         }
     ]
 }
