@@ -1,12 +1,11 @@
-version: "0.9"
+version: "2"
 services:
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    image: howto_frontend:latest
-    ports:
-      - "3000:3000"
-    volumes:
-      - ./frontend:/usr/src/app
-
+    frontend:
+        build:
+            context: ./frontend
+            dockerfile: dev.Dockerfile
+        image: howto_frontend:dev
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./frontend:/usr/src/app
