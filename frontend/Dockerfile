@@ -1,18 +1,17 @@
-from node:11.15.0 as build
+from node:latest as build
 
-# Create app directory
 RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
 
-COPY package.json /usr/src/app
-#COPY package.json /package.json
+COPY . .
 
-RUN npm install
-RUN npm -g install react-scripts
+RUN yarn install 
+RUN yarn global add react-scripts
 
-ADD src /usr/src/app/src
-ADD public /usr/src/app/public
+RUN yarn build
+RUN ls
+RUN pwd
 
-#RUN npm build
-
-CMD [ "npm", "start"]
+from nginx:alpine
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY --from=build /usr/src/app/build /usr/share/nginx/html
