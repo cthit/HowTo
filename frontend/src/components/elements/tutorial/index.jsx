@@ -7,6 +7,7 @@ import {
     DigitText,
     DigitLayout,
     DigitMarkdown,
+    DigitDialogActions
 } from "@cthit/react-digit-components";
 import { connect } from "react-redux";
 
