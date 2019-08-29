@@ -15,8 +15,9 @@ class App extends Component {
                 preloadedState={preloadedState}
                 defaultLangauge="sv"
             >
+                <DigitDialog/>
                 <HomeScreen services={data} />
-                <DigitDialog></DigitDialog>
+
             </DigitProviders>
         );
     }

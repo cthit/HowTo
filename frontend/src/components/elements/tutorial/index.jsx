@@ -8,10 +8,17 @@ import {
     DigitLayout,
     DigitDialogActions,
     DigitMarkdown,
+    DigitProviders,
+    DigitDialog,
 } from "@cthit/react-digit-components";
 import { connect } from "react-redux";
 
-const Service = ({
+<DigitProviders>
+    <DigitDialog />
+    <ServiceConnected />
+</DigitProviders>;
+
+export const Service = ({
     openDialog,
     title,
     description,
@@ -23,7 +30,6 @@ const Service = ({
             onClick={() => {
                 openDialog({
                     renderMain: () => (
-                        console.log(detailedDescriptionName),
                         (
                             <div>
                                 <DigitLayout.Row>
@@ -59,7 +65,7 @@ const mapDispatchToProps = dispatch => ({
         dispatch(DigitDialogActions.digitDialogCustomOpen(dialogData)),
 });
 
-export default connect(
+const ServiceConnected = connect(
     mapStateToProps,
     mapDispatchToProps
 )(Service);
