@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Service } from "../../elements/tutorial/index";
+import Service from "../../elements/tutorial/index";
 import data from "../../../wikis.json";
 import { DigitLayout, DigitHeader } from "@cthit/react-digit-components";
 

@@ -6,19 +6,11 @@ import {
     DigitDesign,
     DigitText,
     DigitLayout,
-    DigitDialogActions,
     DigitMarkdown,
-    DigitProviders,
-    DigitDialog,
 } from "@cthit/react-digit-components";
 import { connect } from "react-redux";
 
-<DigitProviders>
-    <DigitDialog />
-    <ServiceConnected />
-</DigitProviders>;
-
-export const Service = ({
+const Service = ({
     openDialog,
     title,
     description,
@@ -29,6 +21,7 @@ export const Service = ({
         <DigitDesign.CardBody
             onClick={() => {
                 openDialog({
+                    renderButtons: () => null,
                     renderMain: () => (
                         (
                             <div>
@@ -65,7 +58,7 @@ const mapDispatchToProps = dispatch => ({
         dispatch(DigitDialogActions.digitDialogCustomOpen(dialogData)),
 });
 
-const ServiceConnected = connect(
+export default connect(
     mapStateToProps,
     mapDispatchToProps
 )(Service);
