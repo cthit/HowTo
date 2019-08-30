@@ -35,6 +35,12 @@
             "detailedDescriptionName": "print",
             "description": "Need to print some papers? Here's an easy way to do it.",
             "fontawesome_icon": "fa-print"
+        },
+        {
+            "title": "Book Hubben",
+            "detailedDescriptionName": "bookHubben",
+            "description": "Are you planning an Ohmsits or something else in Hubben? This is how you book it.",
+            "fontawesome_icon": "fa-home"
         }
     ]
 }

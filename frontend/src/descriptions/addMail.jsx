@@ -1,6 +1,5 @@
 export const addMail =
-    "This is how you add another email to your gmail. \n" +
-    "1. Enter the settings.\n" +
+    "1. Enter the settings in GMail.\n" +
     "2. Go to the accounts tab.\n" +
     '3. Press "Add another email address".\n' +
     "4. Enter a name for that email as well as the email.\n" +
