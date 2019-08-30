@@ -6,8 +6,8 @@ import {
     DigitDesign,
     DigitText,
     DigitLayout,
-    DigitDialogActions,
     DigitMarkdown,
+    DigitDialogActions
 } from "@cthit/react-digit-components";
 import { connect } from "react-redux";
 
@@ -22,8 +22,8 @@ const Service = ({
         <DigitDesign.CardBody
             onClick={() => {
                 openDialog({
+                    renderButtons: () => null,
                     renderMain: () => (
-                        console.log(detailedDescriptionName),
                         (
                             <div>
                                 <DigitLayout.Row>
