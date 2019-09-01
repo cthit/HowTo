@@ -5,6 +5,7 @@ import { bookGroupRoom} from "./bookGroupRoom";
 import { projectorInHubben} from "./projectorInHubben";
 import { print} from "./print";
 import { bookHubben } from "./bookHubben";
+import { bookExerciseHall } from "./bookExerciseHall";
 
 export const everything = {
     howTo: howTo,
@@ -14,4 +15,5 @@ export const everything = {
     projectorInHubben: projectorInHubben,
     print: print,
     bookHubben: bookHubben,
+    bookExerciseHall: bookExerciseHall,
 };

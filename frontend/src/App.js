@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import HomeScreen from "./components/screens/homeScreen/index";
-import data from "./wikis.json";
+import data from "./howtos.json";
 import { DigitDialog, DigitProviders } from "@cthit/react-digit-components";
 
 class App extends Component {

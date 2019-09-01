@@ -1,5 +1,5 @@
 {
-    "wikis": [
+    "howtos": [
         {
             "title": "Create a new 'HowTo'",
             "detailedDescriptionName": "howTo",
@@ -41,6 +41,12 @@
             "detailedDescriptionName": "bookHubben",
             "description": "Are you planning an Ohmsits or something else in Hubben? This is how you book it.",
             "fontawesome_icon": "fa-home"
+        },
+        {
+            "title": "Book the exercise hall",
+            "detailedDescriptionName": "bookExerciseHall",
+            "description": "Want to get sweaty in the student union building?",
+            "fontawesome_icon": "fa-futbol-o"
         }
     ]
 }

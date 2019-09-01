@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Service from "../../elements/tutorial/index";
-import data from "../../../wikis.json";
+import data from "../../../howtos.json";
 import { DigitLayout, DigitHeader } from "@cthit/react-digit-components";
 
 const gridStyle = {
@@ -12,7 +12,7 @@ const gridStyle = {
 
 class HomeScreen extends Component {
     render() {
-        const tutorials = data.wikis.map(tutorial => <Service {...tutorial} />);
+        const tutorials = data.howtos.map(tutorial => <Service {...tutorial} />);
         return (
             <DigitHeader
                 title="HowTo"
