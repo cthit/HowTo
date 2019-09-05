@@ -7,7 +7,7 @@ import {
     DigitText,
     DigitLayout,
     DigitMarkdown,
-    DigitDialogActions
+    DigitDialogActions,
 } from "@cthit/react-digit-components";
 import { connect } from "react-redux";
 
@@ -24,21 +24,19 @@ const Service = ({
                 openDialog({
                     renderButtons: () => null,
                     renderMain: () => (
-                        (
-                            <div>
-                                <DigitLayout.Row>
-                                    <TutorialIcon
-                                        className={"fa " + fontawesome_icon}
-                                    />
-                                    <DigitText.Heading5 text={title} />
-                                </DigitLayout.Row>
-                                <DigitMarkdown
-                                    markdownSource={
-                                        everything[detailedDescriptionName]
-                                    }
+                        <div>
+                            <DigitLayout.Row>
+                                <TutorialIcon
+                                    className={"fa " + fontawesome_icon}
                                 />
-                            </div>
-                        )
+                                <DigitText.Heading5 text={title} />
+                            </DigitLayout.Row>
+                            <DigitMarkdown
+                                markdownSource={
+                                    everything[detailedDescriptionName]
+                                }
+                            />
+                        </div>
                     ),
                 });
             }}

@@ -12,7 +12,9 @@ const gridStyle = {
 
 class HomeScreen extends Component {
     render() {
-        const tutorials = data.howtos.map(tutorial => <Service {...tutorial} />);
+        const tutorials = data.howtos.map(tutorial => (
+            <Service {...tutorial} />
+        ));
         return (
             <DigitHeader
                 title="HowTo"
