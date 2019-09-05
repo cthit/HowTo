@@ -18,7 +18,7 @@ const Service = ({
     detailedDescriptionName,
     fontawesome_icon,
 }) => (
-    <DigitDesign.Card absWidth="20vw" absHeight="200px">
+    <DigitDesign.Card width="400px" height="200px">
         <DigitDesign.CardBody
             onClick={() => {
                 openDialog({
