@@ -5,7 +5,7 @@ import { DigitLayout, DigitHeader } from "@cthit/react-digit-components";
 
 const gridStyle = {
     marginLeft: "2vw",
-    marginRight: "2wv",
+    marginRight: "2vw",
     marginTop: "20px",
     width: "95vw",
 };
