@@ -7,7 +7,7 @@ import {
     DigitText,
     DigitLayout,
     DigitMarkdown,
-    DigitDialogActions
+    DigitDialogActions,
 } from "@cthit/react-digit-components";
 import { connect } from "react-redux";
 
@@ -18,27 +18,25 @@ const Service = ({
     detailedDescriptionName,
     fontawesome_icon,
 }) => (
-    <DigitDesign.Card absWidth="20vw" absHeight="200px">
+    <DigitDesign.Card width="400px" height="200px">
         <DigitDesign.CardBody
             onClick={() => {
                 openDialog({
                     renderButtons: () => null,
                     renderMain: () => (
-                        (
-                            <div>
-                                <DigitLayout.Row>
-                                    <TutorialIcon
-                                        className={"fa " + fontawesome_icon}
-                                    />
-                                    <DigitText.Heading5 text={title} />
-                                </DigitLayout.Row>
-                                <DigitMarkdown
-                                    markdownSource={
-                                        everything[detailedDescriptionName]
-                                    }
+                        <div>
+                            <DigitLayout.Row>
+                                <TutorialIcon
+                                    className={"fa " + fontawesome_icon}
                                 />
-                            </div>
-                        )
+                                <DigitText.Heading5 text={title} />
+                            </DigitLayout.Row>
+                            <DigitMarkdown
+                                markdownSource={
+                                    everything[detailedDescriptionName]
+                                }
+                            />
+                        </div>
                     ),
                 });
             }}

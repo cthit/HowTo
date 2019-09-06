@@ -4,23 +4,26 @@ import data from "../../../howtos.json";
 import { DigitLayout, DigitHeader } from "@cthit/react-digit-components";
 
 const gridStyle = {
-    marginLeft: "2.5vw",
-    marginRight: "2.5vw",
+    marginLeft: "2vw",
+    marginRight: "2vw",
     marginTop: "20px",
     width: "95vw",
 };
 
 class HomeScreen extends Component {
     render() {
-        const tutorials = data.howtos.map(tutorial => <Service {...tutorial} />);
+        const tutorials = data.howtos.map(tutorial => (
+            <Service {...tutorial} />
+        ));
         return (
             <DigitHeader
                 title="HowTo"
                 renderMain={() => (
                     <div style={gridStyle}>
                         <DigitLayout.UniformGrid
-                            margin="5vw"
-                            minItemWidth="20vw"
+                            margin="50px"
+                            minItemWidth="400px"
+                            justifyItems="center"
                         >
                             {tutorials}
                         </DigitLayout.UniformGrid>
