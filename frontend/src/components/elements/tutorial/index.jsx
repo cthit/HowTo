@@ -20,6 +20,7 @@ const Service = ({
 }) => (
     <DigitDesign.Card width="400px" height="200px">
         <DigitDesign.CardBody
+            style={{cursor: 'pointer', backgroundColor: "#f8f8f8"}}
             onClick={() => {
                 openDialog({
                     renderButtons: () => null,
