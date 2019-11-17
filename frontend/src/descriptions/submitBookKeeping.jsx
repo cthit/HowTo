@@ -40,12 +40,13 @@ export const submitBookKeeping =
     "&nbsp;  \n" +
     "##### Bra att tänka på:\n" +
     "- När granskningen sker ska fysisk bokföring (verifikat, kvitton, deltagarlistor, internfordringar, samt fakturor) finnas tillgängligt för revisorerna. Verifikaten bör även vara underskivna, detta är särskilt viktigt inför ansvarsbefrielse.\n" +
-    "- Om kassören av någon anledning ligger efter i bokföringen inför granskningen ska bokföring ändå skickas in till den grad det går samt så behöver revisorerna få veta att kassören ligger efter samt varför.\n" +
+    "- Om kassören av någon anledning ligger efter i bokföringen inför granskningen ska bokföring ändå skickas in till den grad det går, dessutom behöver revisorerna få veta att kassören ligger efter samt varför.\n" +
     "- Om ni är osäkra på något, kolla i ekonomisk policy, stadgar, reglemente, eller fråga någon av revisorerna eller styrITs kassör.\n" +
     "- Revisorerna är dina vänner, vi är här för att hjälpa dig med bokföringen!\n" +
 
     "##### Bra att kolla på innan du lämnar in bokföringen:\n" +
-    "- Kolla så att bankkontot stämmer överens mellan transaktionslistan och huvudboken för hela sektionen då transaktioner kan bokföras på olika kostnadsställen och om de inte gör det lägg en kommentar på varför de inte gör det.\n" +
-    "- Kolla så att ni har följt ekonomisk policy gällande intern representation, extern representation, aspning, profilering, samt överlämning.\n" +
+    "- Att bankkontot stämmer överens mellan transaktionslistan och huvudboken för hela sektionen då transaktioner kan bokföras på olika kostnadsställen.\n" +
+    "Om summorna inte stämmer överens ska det läggas en kommentar på varför de inte gör det och varför det inte är fixat.\n" +
+    "- Att ni har följt ekonomisk policy gällande intern representation, extern representation, aspning, profilering, samt överlämning.\n" +
     "  - Om ni fått dispens för någon av dessa se till att det finns en kommentar i verifikatet där ni refererar till styrelsemötet.\n" +
-    "- Om det finns deltagarlistor på tillfällen som det har bjudits på mat (ex teambuilding och aspning)";
+    "- Att det finns deltagarlistor på tillfällen som det har bjudits på mat (ex teambuilding och aspning)";
