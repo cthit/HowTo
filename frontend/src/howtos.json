@@ -47,6 +47,12 @@
             "detailedDescriptionName": "bookExerciseHall",
             "description": "Want to get sweaty in the student union building?",
             "fontawesome_icon": "fa-futbol-o"
+        },
+        {
+            "title": "Lämna in bokföringen",
+            "detailedDescriptionName": "submitBookKeeping",
+            "description": "Hur du lämnar in bokföringen så att det blir lättare för dig och revisorerna!",
+            "fontawesome_icon": "fa-money"
         }
     ]
 }
