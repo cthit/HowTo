@@ -1,5 +1,7 @@
 export const submitBookKeeping =
-    "15 läsdagar innan varje sektionsmöte (oftast torsdag LP3) måste sektionens kassörer skicka ett mail till [revisorerna](mailto:revisorer@chalmers.it) som uppfyller följande instruktioner:  \n" +
+    "15 läsdagar innan varje sektionsmöte (oftast torsdag LP3) måste sektionens kassörer skicka ett mail till " +
+    "[revisorerna](mailto:revisorer@chalmers.it) samt [styrITs kassör](mailto:kassor@chalmers.it) " +
+    "som uppfyller följande instruktioner:  \n" +
     "&nbsp;  \n" +
     "**Ämnesrad vid ordinarie granskning:**  \n" +
     "'`<KOMMITÉNAMN> Sektionsmöte LP<LP> bokföring`'  \n" +
@@ -13,13 +15,12 @@ export const submitBookKeeping =
     "'`FooIT18 ansvarsbefrielse LP2`'  \n" +
     "&nbsp;  \n" +
     "##### I mailet ska det finnas följande dokument med tillhörande filnamn:\n" +
-    "- **Verifikationslista** (hittas i FortNox): '`<KOMMITÉNAMN+VERKSAMHETSÅR>_lp<LP>_verifikat.pdf`'\n" +
-    "- **Huvudbok** (hittas i FortNox): '`<KOMMITÉNAMN+VERKSAMHETSÅR>_lp<LP>_huvudbok.pdf`'\n" +
-    "- **Resultatrapport** (hittas i FortNox): '`<KOMMITÉNAMN+VERKSAMHETSÅR>_lp<LP>_resultat.pdf`'\n" +
-    "- **Balansrapport** (hittas i FortNox): '`<KOMMITÉNAMN+VERKSAMHETSÅR>_lp<LP>_balans.pdf`'\n" +
-    "- **Kontoplan** (hittas i FortNox): '`<KOMMITÉNAMN+VERKSAMHETSÅR>_lp<LP>_konto.pdf`'\n" +
-    "- **Transaktionslista** (hittas i internetbanken): '`<KOMMITÉNAMN+VERKSAMHETSÅR>_lp<LP>_transaktion.pdf`'\n" +
-    "- **Transaktionslista, Swish** (gäller endast styrIT, hittas i internetbanken): '`styrit<VERKSAMHETSÅR>_lp<LP>_swish.pdf`'\n\n" +
+    "- **Verifikationslista** (hittas i FortNox): '`<KOMMITÉNAMN><VERKSAMHETSÅR>_lp<LP>_verifikat.pdf`'\n" +
+    "- **Huvudbok** (hittas i FortNox): '`<KOMMITÉNAMN><VERKSAMHETSÅR>_lp<LP>_huvudbok.pdf`'\n" +
+    "- **Resultatrapport** (hittas i FortNox): '`<KOMMITÉNAMN><VERKSAMHETSÅR>_lp<LP>_resultat.pdf`'\n" +
+    "- **Balansrapport** (hittas i FortNox): '`<KOMMITÉNAMN><VERKSAMHETSÅR>_lp<LP>_balans.pdf`'\n" +
+    "- **Kontoplan** (hittas i FortNox): '`<KOMMITÉNAMN><VERKSAMHETSÅR>_lp<LP>_konto.pdf`'\n" +
+    "- **Transaktionslista** (hittas i internetbanken): '`<KOMMITÉNAMN><VERKSAMHETSÅR>_lp<LP>_transaktion.pdf`'  \n" +
 
     "Om du skulle behöva skicka flera filer under samma kategori så lägger du till perioden som dokumentet beskriver i slutet på namnet.  \n" +
     "Ex: BarIT19 har ett verksamhetsår som börjar under styrIT18s verksamhetsår och slutar under styrIT19s verksamhetsår.\n" +
