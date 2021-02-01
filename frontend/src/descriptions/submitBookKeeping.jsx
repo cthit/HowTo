@@ -1,19 +1,19 @@
 export const submitBookKeeping =
     "15 läsdagar innan varje sektionsmöte (oftast torsdag LV3) måste sektionens kassörer skicka ett mail till [revisorerna](mailto:revisorer@chalmers.it).\n" +
     "\n" +
-    "## Vanlig granskning\n" +
+    "##### Vanlig granskning\n" +
     "En vanlig granskning är det som varje kassör måste genomgå varje LP. För en vanlig granskning ska mailet oftast innehålla tre filer:\n" +
     "- Transaktionslista/bankutdrag för hela ert verksamhetsår. Namnge den `kommitténamn_trans.pdf`.\n" +
     "- Huvudbok för hela ert verksamhetsår, men som är under nuvarande styrIT-år. Det blir nytt styrIT-år 07-01. Namnge den `kommitténamn_huvud.pdf`. \n" +
     "- Kontoanalys för fortnoxkontot som representerar ert bankkonto för samma tidsperiod som huvudboken. Namnge det `kommitténamn_konto.pdf`.\n" +
     "\n" +
-    "## Ansvarsbefrielse\n" +
-    "När ni vill bli ansvarsbefriade så skickar ni in samma grejer, fast alla tre filer ska sträcka sig från dagen ni gick på tills sista dagen ni satt. Det vill säga hela ert verksamhetsår.\n" +
+    "##### Ansvarsbefrielse\n" +
+    "När du vill bli ansvarsbefriade så skickar du in samma grejer, fast alla tre filer ska sträcka sig från dagen du gick på tills sista dagen du satt. Det vill säga hela ert verksamhetsår.\n" +
     "\n" +
     "Du måste även ha gjort all fysisk bokföring genom att använda [redovisningsmallen](https://styrit.chalmers.it/wp-content/uploads/Redovisningsmall.pdf) för alla fysiska kvitton. Det ska även vara underskrivet av kassör och ordförande längst bak.\n" +
     "\n" +
     "\n" +
-    "## Exempel\n" +
+    "##### Exempel\n" +
     "P.R.I.T. skickar in sin bokföring för LP1. P.R.I.T. sitter mellan 01-01 och 12-31  \n" +
     "- **Transaktionslista**: Hämtas från swedbank under *Beställda rapporter*. Ska gå från 01-01 till datumet den skickas.  \n" +
     "- **Huvudbok**: I Fortnox, klicka Rapporter och välj Huvudbok. Välj kostnadsställe ***P.R.I.T.*** och pdf. Datum är från 07-01 till datumet den skickas.  \n" +
