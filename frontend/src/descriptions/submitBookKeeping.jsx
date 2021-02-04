@@ -1,52 +1,30 @@
 export const submitBookKeeping =
-    "15 läsdagar innan varje sektionsmöte (oftast torsdag LP3) måste sektionens kassörer skicka ett mail till [revisorerna](mailto:revisorer@chalmers.it) som uppfyller följande instruktioner:  \n" +
-    "&nbsp;  \n" +
-    "**Ämnesrad vid ordinarie granskning:**  \n" +
-    "'`<KOMMITÉNAMN> Sektionsmöte LP<LP> bokföring`'  \n" +
-    "**Ämnesrad vid granskning inför ansvarsbefrielse:**  \n" +
-    "'`<KOMMITÉNAMN+MANDATÅR> ansvarsbefrielse LP<LP>`'  \n" +
-    "&nbsp;  \n" +
-    "Ex: Säg att FooIT18 vill lämna in sin bokföring inför sektionsmötet LP1, då skickar kassören ett mail med ämnesraden  \n" +
-    "'`FooIT Sektionsmöte LP1 bokföring`'  \n" +
-    "&nbsp;  \n" +
-    "Ex: FooIT18 vill i LP2 lämna in sin bokföring för att bli ansvarsbefriade, då skickar kassören ett mail med ämnesraden  \n" +
-    "'`FooIT18 ansvarsbefrielse LP2`'  \n" +
-    "&nbsp;  \n" +
-    "##### I mailet ska det finnas följande dokument med tillhörande filnamn:\n" +
-    "- **Verifikationslista** (hittas i FortNox): '`<KOMMITÉNAMN+VERKSAMHETSÅR>_lp<LP>_verifikat.pdf`'\n" +
-    "- **Huvudbok** (hittas i FortNox): '`<KOMMITÉNAMN+VERKSAMHETSÅR>_lp<LP>_huvudbok.pdf`'\n" +
-    "- **Resultatrapport** (hittas i FortNox): '`<KOMMITÉNAMN+VERKSAMHETSÅR>_lp<LP>_resultat.pdf`'\n" +
-    "- **Balansrapport** (hittas i FortNox): '`<KOMMITÉNAMN+VERKSAMHETSÅR>_lp<LP>_balans.pdf`'\n" +
-    "- **Kontoplan** (hittas i FortNox): '`<KOMMITÉNAMN+VERKSAMHETSÅR>_lp<LP>_konto.pdf`'\n" +
-    "- **Transaktionslista** (hittas i internetbanken): '`<KOMMITÉNAMN+VERKSAMHETSÅR>_lp<LP>_transaktion.pdf`'\n" +
-    "- **Transaktionslista, Swish** (gäller endast styrIT, hittas i internetbanken): '`styrit<VERKSAMHETSÅR>_lp<LP>_swish.pdf`'\n\n" +
-
-    "Om du skulle behöva skicka flera filer under samma kategori så lägger du till perioden som dokumentet beskriver i slutet på namnet.  \n" +
-    "Ex: BarIT19 har ett verksamhetsår som börjar under styrIT18s verksamhetsår och slutar under styrIT19s verksamhetsår.\n" +
-    "Då behöver kassören skicka in två huvudböcker för att täcka in hela sitt verksamhetsår efter att styrIT19 gått på.\n" +
-    "Då kommer de heta  \n" +
-    "'`barit19_lp1_huvudbok_lp3lp4.pdf`'  \n" +
-    "och  \n" +
-    "'`barit19_lp1_huvudbok_lp1.pdf`'  \n" +
-    "i LP1.  \n" +
-    "&nbsp;  \n" +
-    "Ibland är det även relevant att lägga till huvudboken för hela sektionen, exempelvis ifall en kommité har bokfört en förändring mot an annan kommités bankkonto.\n" +
-    "Huvudboken för hela sektionen ska då heta  \n" +
-    "'`sektionen<STYRITS_VERKSAMHETSÅR>_lp<LP>_huvudbok.pdf`'.  \n" +
-    "Ex: BarIT19 har fått pengar från FooIT19 för att hålla i en sittning som FooIT bokför under LP1.\n" +
-    "När BarIT19 då lämnar in sin bokföring inför sektionsmötet LP3 ska även sektionens huvudbok skickas med under namnet  \n" +
-    "'`sektionen19_lp1_huvudbok.pdf`'  \n" +
-    "utöver de vanliga dokumenten.  \n" +
-    "&nbsp;  \n" +
-    "##### Bra att tänka på:\n" +
-    "- När granskningen sker ska fysisk bokföring (verifikat, kvitton, deltagarlistor, internfordringar, samt fakturor) finnas tillgängligt för revisorerna. Verifikaten bör även vara underskivna, detta är särskilt viktigt inför ansvarsbefrielse.\n" +
-    "- Om kassören av någon anledning ligger efter i bokföringen inför granskningen ska bokföring ändå skickas in till den grad det går, dessutom behöver revisorerna få veta att kassören ligger efter samt varför.\n" +
-    "- Om ni är osäkra på något, kolla i ekonomisk policy, stadgar, reglemente, eller fråga någon av revisorerna eller styrITs kassör.\n" +
-    "- Revisorerna är dina vänner, vi är här för att hjälpa dig med bokföringen!\n" +
-
-    "##### Bra att kolla på innan du lämnar in bokföringen:\n" +
-    "- Att bankkontot stämmer överens mellan transaktionslistan och huvudboken för hela sektionen då transaktioner kan bokföras på olika kostnadsställen.\n" +
-    "Om summorna inte stämmer överens ska det läggas en kommentar på varför de inte gör det och varför det inte är fixat.\n" +
-    "- Att ni har följt ekonomisk policy gällande intern representation, extern representation, aspning, profilering, samt överlämning.\n" +
-    "  - Om ni fått dispens för någon av dessa se till att det finns en kommentar i verifikatet där ni refererar till styrelsemötet.\n" +
-    "- Att det finns deltagarlistor på tillfällen som det har bjudits på mat (ex teambuilding och aspning)";
+    "15 läsdagar innan varje sektionsmöte (oftast torsdag LV3) måste sektionens kassörer skicka ett mail till [revisorerna](mailto:revisorer@chalmers.it).\n" +
+    "\n" +
+    "##### Vanlig granskning\n" +
+    "En vanlig granskning är det som varje kassör måste genomgå varje LP. För en vanlig granskning ska mailet oftast innehålla tre filer:\n" +
+    "- Transaktionslista/bankutdrag för hela ert verksamhetsår. Namnge den `kommitténamn_trans.pdf`.\n" +
+    "- Huvudbok för hela ert verksamhetsår, men som är under nuvarande styrIT-år. Det blir nytt styrIT-år 07-01. Namnge den `kommitténamn_huvud.pdf`. \n" +
+    "- Kontoanalys för fortnoxkontot som representerar ert bankkonto för samma tidsperiod som huvudboken. Namnge det `kommitténamn_konto.pdf`.\n" +
+    "\n" +
+    "##### Ansvarsbefrielse\n" +
+    "När du vill bli ansvarsbefriade så skickar du in samma grejer, fast alla tre filer ska sträcka sig från dagen du gick på tills sista dagen du satt. Det vill säga hela ert verksamhetsår.\n" +
+    "\n" +
+    "Du måste även ha gjort all fysisk bokföring genom att använda [redovisningsmallen](https://styrit.chalmers.it/wp-content/uploads/Redovisningsmall.pdf) för alla fysiska kvitton. Det ska även vara underskrivet av kassör och ordförande längst bak.\n" +
+    "\n" +
+    "\n" +
+    "##### Exempel\n" +
+    "P.R.I.T. skickar in sin bokföring för LP1. P.R.I.T. sitter mellan 01-01 och 12-31  \n" +
+    "- **Transaktionslista**: Hämtas från swedbank under *Beställda rapporter*. Ska gå från 01-01 till datumet den skickas.  \n" +
+    "- **Huvudbok**: I Fortnox, klicka Rapporter och välj Huvudbok. Välj kostnadsställe ***P.R.I.T.*** och pdf. Datum är från 07-01 till datumet den skickas.  \n" +
+    "- **Kontoanalys**: I Fortnox, klicka Rapporter och välj Kontoanalys. Välj konto *Bankkonto PRIT*/*1921*. Kostnadsställe ***Alla***. Datum är från 01-01 till datumet den skickas.\n" +
+    "\n" +
+    "digIT skickar in sin bokföring för LP1. digIT sitter mellan 05-01 och 04-30\n" +
+    "- **Transaktionslista**: Hämtas från swedbank under *Beställda rapporter*. Ska gå från 05-01 till datumet den skickas.  \n" +
+    "- **Huvudbok**: Två filer denna gången. En från 05-01 till 06-30 och en från 07-01 tills datumet den skickas. I Fortnox, klicka Rapporter och välj Huvudbok. Välj kostnadsställe ***digIT*** och pdf.  \n" +
+    "- **Kontoanalys**: Två filer här också. En från 05-01 till 06-30 och en från 07-01 tills datumet den skickas. I Fortnox, klicka Rapporter och välj Kontoanalys. Välj konto *Bankkonto digIT*/*1926*. Kostnadsställe ***Alla***.\n" +
+    "\n" +
+    "NollKIT'20 vill bli ansvarsbefriad. NollKIT'20 satt mellan 2020-01-01 och 2020-12-31  \n" +
+    "- **Transaktionslista**: En fil. Ska gå från 2020-01-01 till 2020-12-31  \n" +
+    "- **Huvudbok**: Två filer. En från 2020-01-01 till 2020-06-30 och en från 2020-07-01 till 2020-12-30. Lägg till suffix `_1` och `_2` i namnen. Kostnadsställe *NollKIT*\n" +
+    "- **Kontoanalys**: Två filer. En från 2020-01-01 till 2020-06-30 och en från 2020-07-01 till 2020-12-30. Lägg till suffix `_1` och `_2` i namnen. Välj konto *Bankkonto NollKIT*/*1923*. Kostnadsställe ***Alla***\n";
