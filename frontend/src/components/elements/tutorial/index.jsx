@@ -7,58 +7,51 @@ import {
     DigitText,
     DigitLayout,
     DigitMarkdown,
-    DigitDialogActions,
+    useDigitCustomDialog,
 } from "@cthit/react-digit-components";
-import { connect } from "react-redux";
 
 const Service = ({
-    openDialog,
     title,
     description,
     detailedDescriptionName,
     fontawesome_icon,
-}) => (
-    <DigitDesign.Card width="400px" height="200px">
-        <DigitDesign.CardBody
-            style={{cursor: 'pointer'}}
-            onClick={() => {
-                openDialog({
-                    renderButtons: () => null,
-                    renderMain: () => (
-                        <div>
-                            <DigitLayout.Row>
-                                <TutorialIcon
-                                    className={"fa " + fontawesome_icon}
+}) => {
+    const [openDialog] = useDigitCustomDialog({
+        title: "",
+    })
+    return (
+        <DigitDesign.Card size={{width:"400px", height:"200px"}}>
+            <DigitDesign.CardBody
+                style={{cursor: 'pointer'}}
+                onClick={() => {
+                    openDialog({
+                        renderButtons: () => null,
+                        renderMain: () => (
+                            <div>
+                                <DigitLayout.Row>
+                                    <TutorialIcon
+                                        className={"fa " + fontawesome_icon}
+                                    />
+                                    <DigitText.Heading5 text={title} />
+                                </DigitLayout.Row>
+                                <DigitMarkdown
+                                    markdownSource={
+                                        everything[detailedDescriptionName]
+                                    }
                                 />
-                                <DigitText.Heading5 text={title} />
-                            </DigitLayout.Row>
-                            <DigitMarkdown
-                                markdownSource={
-                                    everything[detailedDescriptionName]
-                                }
-                            />
-                        </div>
-                    ),
-                });
-            }}
-        >
-            <DigitLayout.Row>
-                <TutorialIcon className={"fa " + fontawesome_icon} />
-                <DigitText.Title text={title} />
-            </DigitLayout.Row>
-            <DigitMarkdown markdownSource={description} />
-        </DigitDesign.CardBody>
-    </DigitDesign.Card>
-);
+                            </div>
+                        ),
+                    });
+                }}
+            >
+                <DigitLayout.Row>
+                    <TutorialIcon className={"fa " + fontawesome_icon} />
+                    <DigitText.Title text={title} />
+                </DigitLayout.Row>
+                <DigitMarkdown markdownSource={description} />
+            </DigitDesign.CardBody>
+        </DigitDesign.Card>
+    );
+}
 
-const mapStateToProps = (state, ownProps) => ({});
-
-const mapDispatchToProps = dispatch => ({
-    openDialog: dialogData =>
-        dispatch(DigitDialogActions.digitDialogCustomOpen(dialogData)),
-});
-
-export default connect(
-    mapStateToProps,
-    mapDispatchToProps
-)(Service);
+export default Service;
