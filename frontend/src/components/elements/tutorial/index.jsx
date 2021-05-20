@@ -18,16 +18,16 @@ const Service = ({
 }) => {
     const [openDialog] = useDigitCustomDialog({
         title: "",
-    })
+    });
     return (
-        <DigitDesign.Card size={{width:"400px", height:"200px"}}>
+        <DigitDesign.Card size={{ width: "400px", height: "200px" }}>
             <DigitDesign.CardBody
-                style={{cursor: 'pointer'}}
+                style={{ cursor: "pointer" }}
                 onClick={() => {
                     openDialog({
                         renderButtons: () => null,
                         renderMain: () => (
-                            <div>
+                            <>
                                 <DigitLayout.Row>
                                     <TutorialIcon
                                         className={"fa " + fontawesome_icon}
@@ -39,7 +39,7 @@ const Service = ({
                                         everything[detailedDescriptionName]
                                     }
                                 />
-                            </div>
+                            </>
                         ),
                     });
                 }}
@@ -52,6 +52,6 @@ const Service = ({
             </DigitDesign.CardBody>
         </DigitDesign.Card>
     );
-}
+};
 
 export default Service;
