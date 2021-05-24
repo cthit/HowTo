@@ -21,7 +21,7 @@ class HomeScreen extends Component {
                 renderMain={() => (
                     <div style={gridStyle}>
                         <DigitLayout.UniformGrid
-                            margin="50px"
+                            margin="5px"
                             minItemWidth="400px"
                             justifyItems="center"
                         >
