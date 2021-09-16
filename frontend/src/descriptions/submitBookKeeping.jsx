@@ -10,7 +10,7 @@ export const submitBookKeeping =
     "##### Ansvarsbefrielse\n" +
     "När du vill bli ansvarsbefriade så skickar du in samma grejer, fast alla tre filer ska sträcka sig från dagen du gick på tills sista dagen du satt. Det vill säga hela ert verksamhetsår.\n" +
     "\n" +
-    "Du måste även ha gjort all fysisk bokföring genom att använda [redovisningsmallen](https://styrit.chalmers.it/wp-content/uploads/Redovisningsmall.pdf) för alla fysiska kvitton. Kassör och ordförande ska även ha skrivit på [attest](https://www.overleaf.com/read/xbnbvmqbrymd) samt verifikationslista som kan hämtas på Fortnox via Rapporter. Dessa ska finnas längst fram i pärmen.\n" +
+    "Du måste även ha gjort all fysisk bokföring genom att använda [redovisningsmallen](https://styrit.chalmers.it/wp-content/uploads/Redovisningsmall.pdf) för alla fysiska kvitton. Kassör och ordförande ska även ha skrivit på [attest](https://styrit.chalmers.it/wp-content/uploads/template.pdf) samt verifikationslista som kan hämtas på Fortnox via Rapporter. Dessa ska finnas längst fram i pärmen.\n" +
     "\n" +
     "\n" +
     "##### Exempel\n" +
