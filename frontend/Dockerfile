@@ -1,4 +1,4 @@
-from node:latest as build
+from node:16 as build
 
 RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
@@ -6,11 +6,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 RUN yarn install 
-RUN yarn global add react-scripts
-
 RUN yarn build
-RUN ls
-RUN pwd
 
 from nginx:alpine
 COPY nginx.conf /etc/nginx/nginx.conf
