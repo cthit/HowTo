@@ -6,7 +6,7 @@ A repository for tutorials on how to do IT
 
 ### For production ###
 
-`docker-compose up -f prod.docker-compose.yml --build`
+`docker-compose -f prod.docker-compose.yml up --build`
 
 ### Development ###
 
